@@ -1,0 +1,1447 @@
+,metro,price,way,views,provider,fee_percent,storey,minutes,storeys,living_area,kitchen_area,total_area
+0, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+1, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+2, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+3, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+4, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+5, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+6, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+7, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+8, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+9, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+10, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+11, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+12, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+13, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+14, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+15, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+16, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+17, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+18, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+19, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+20, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+21, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+22, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+23, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+24, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+25, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+26, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+27, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+28, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+29, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+30, Buninskaia Alleia ,25000,transport,173,owner                 ,0,3,7,9,18,9,40
+31, Rasskazovka ,45000,walk,45,realtor                 ,31,22,15,22,23,9,40
+32, Fili ,50000,walk,61,owner                 ,0,6,5,7,18,9,30
+33, Kommunarka ,40000,walk,65,owner                 ,50,4,10,15,15,5,5
+34, Cherkizovskaia ,42000,walk,69,realtor                 ,50,4,12,39,11,6,19
+35, Lukhmanovskaia ,40000,walk,55,owner                 ,0,1,15,1,17,14,35
+36, Teplyi Stan ,78000,walk,62,owner                 ,0,8,15,16,37,37,37
+37, Buninskaia Alleia ,30000,transport,103,realtor                 ,60,3,12,13,12,3,24
+38, Prazhskaia ,45000,walk,61,realtor                 ,50,10,15,17,20,8,38
+39, Mezhdunarodnaia ,260000,walk,110,realtor                 ,50,74,0,95,31,20,51
+40,No data,35000,walk,16,agency                       ,100,13,0,14,19,9,35
+41, Fili ,70000,walk,28,agency                       ,50,14,0,27,16,5,32
+42, Kommunarka ,19000,walk,34,agency                       ,100,3,0,9,18,8,36
+43,No data,33000,walk,22,agency                       ,100,1,0,12,19,8,33
+44, Filatov Lug ,15000,walk,22,agency                       ,100,7,0,7,20,10,45
+45,No data,32000,walk,12,agency                       ,100,3,0,14,20,10,39
+46, Planernaia ,38000,walk,17,agency                       ,100,4,0,12,19,7,35
+47, Annino ,30000,walk,50,agency                       ,100,9,0,14,22,10,45
+48,No data,30000,walk,20,agency                    ,60,6,0,12,19,12,38
+49, Shchelkovskaia ,20000,transport,10,agency                 ,50,4,4,9,20,9,38
+50, Beliaevo ,28000,walk,17,agency                 ,43,14,9,16,31,8,40
+51, Liublino ,26000,walk,17,agency                 ,50,14,2,16,28,7,39
+52, Kuzminki ,27000,walk,16,agency                 ,48,15,6,24,29,8,38
+53, Novye Cheremushki ,25500,walk,16,agency                 ,47,15,7,17,30,7,40
+54, Marino ,25000,walk,25,agency                 ,50,8,13,17,21,6,40
+55, Teplyi Stan ,20000,transport,26,agency                 ,50,5,6,13,19,6,38
+56, Strogino ,40000,walk,10,agency                 ,0,12,5,12,20,8,39
+57, Rasskazovka ,40000,walk,22,agency                 ,0,17,0,17,20,10,40
+58,No data,35000,walk,29,agency                 ,0,12,0,12,18,8,32
+59, Solntcevo ,50000,walk,28,agency                 ,0,15,0,17,20,8,40
+60, Kommunarka ,24000,walk,22,agency                 ,50,5,15,15,14,9,33
+61, Salarevo ,14000,transport,24,agency                 ,50,6,6,17,18,11,40
+62, Salarevo ,14000,transport,31,agency                 ,50,4,5,17,19,11,41
+63, Piatnitckoe shosse ,18000,walk,22,agency                 ,50,8,5,17,17,6,36
+64, Teplyi Stan ,33000,walk,22,agency                 ,0,5,5,16,20,12,34
+65, Izmailovskaia ,25000,transport,22,agency                 ,50,2,19,5,24,8,36
+66, Buninskaia Alleia ,24000,transport,25,agency                 ,50,16,7,17,26,8,38
+67, Petrovsko-Razumovskaia ,25000,walk,47,agency                 ,50,17,10,22,20,10,39
+68, Tekstilshchiki ,24000,walk,38,agency                 ,50,7,6,9,24,8,46
+69, Novokosino ,22000,walk,96,owner                 ,0,9,6,17,30,15,45
+70, Ulitca Dmitrievskogo ,21000,walk,83,owner                 ,0,7,6,12,30,15,45
+71, Solntcevo ,21000,transport,51,owner                 ,0,5,32,9,30,12,42
+72, Nagornaia ,22000,walk,115,owner                 ,0,5,6,9,30,11,41
+73, Dubrovka ,22000,walk,84,owner                 ,0,10,11,16,30,13,43
+74, Partizanskaia ,21000,walk,72,owner                 ,0,7,9,9,30,12,42
+75, Bulvar Rokossovskogo ,22000,walk,82,owner                 ,0,3,6,5,30,13,43
+76, VDNKh ,20000,transport,92,owner                 ,0,4,4,9,30,13,43
+77, Medvedkovo ,21000,walk,77,owner                 ,0,7,5,14,30,12,42
+78, Altufevo ,20000,walk,116,owner                 ,0,7,5,12,30,13,43
+79, Petrovskii park ,17000,transport,17,owner                 ,0,10,4,17,30,15,45
+80, Petrovskii park ,18000,transport,17,owner                 ,0,9,5,16,30,12,42
+81, Salarevo ,18000,transport,36,owner                 ,0,9,5,17,30,15,45
+82, Buninskaia Alleia ,18000,transport,26,owner                 ,0,5,8,12,30,12,42
+83, Buninskaia Alleia ,17000,transport,35,owner                 ,0,4,8,10,30,15,45
+84, Narodnoe Opolchenie ,62000,transport,29,owner                 ,0,1,0,24,32,6,40
+85, Buninskaia Alleia ,18000,transport,32,agency                 ,50,6,10,9,20,6,39
+86, Buninskaia Alleia ,14000,transport,30,agency                 ,50,6,8,17,18,6,38
+87, Zhulebino ,16000,walk,38,agency                 ,50,3,8,4,17,6,39
+88, Mitino ,37000,walk,16,owner                 ,0,12,4,17,20,9,40
+89, Nekrasovka ,25000,walk,69,agency                 ,50,16,7,17,20,10,40
+90, Studencheskaia ,25000,walk,119,agency                 ,50,7,7,8,20,10,37
+91, Bulvar Admirala Ushakova ,35000,walk,28,agency                    ,40,11,5,17,22,9,38
+92, Kuntcevskaia ,50000,walk,10,agency                    ,50,8,7,14,30,13,50
+93, Khovrino ,33000,walk,28,agency                    ,50,9,17,16,37,37,37
+94, Krasnogvardeiskaia ,34000,walk,16,agency                    ,60,8,8,9,6,18,6
+95, Kantemirovskaia ,55000,walk,20,agency                    ,40,8,3,15,37,37,37
+96, Vodnyi stadion ,56000,walk,22,agency                    ,0,15,9,24,16,4,28
+97, Kurskaia ,75000,walk,16,agency                    ,50,4,14,5,20,10,45
+98, Borisovo ,35000,walk,9,agency                    ,50,14,5,22,20,10,39
+99, Tcvetnoi bulvar ,65000,walk,36,agency                    ,50,4,11,12,19,10,39
+100, Elektrozavodskaia ,61000,walk,51,Застройщик                 ,50,10,13,14,20,10,39
+101, Seligerskaia ,60000,walk,21,Застройщик                 ,50,1,8,23,19,8,35
+102, Rechnoi vokzal ,45000,transport,19,Застройщик                 ,50,12,15,17,20,10,40
+103, Otradnoe ,60000,walk,48,Застройщик                 ,50,23,18,25,37,37,37
+104,No data,30260,walk,17,agency                 ,0,3,0,11,37,37,37
+105, Alekseevskaia ,57000,walk,54,Застройщик                 ,50,3,7,12,37,37,37
+106, Prospekt Mira ,60000,walk,16,Застройщик                 ,18,6,8,9,22,7,35
+107, Belorusskaia ,62000,walk,24,Застройщик                 ,70,9,10,9,17,9,37
+108, Salarevo ,60000,transport,40,Застройщик                 ,50,17,8,22,20,10,39
+109, Bulvar Rokossovskogo ,60000,walk,21,Застройщик                 ,50,1,7,9,19,9,38
+110,No data,30260,walk,17,agency                 ,0,3,0,11,37,37,37
+111,No data,30000,walk,13,Застройщик                 ,0,2,0,13,16,15,37
+112,No data,60000,walk,54,Застройщик                 ,50,5,0,5,20,8,38
+113, Prospekt Vernadskogo ,60000,walk,38,owner                 ,0,6,5,10,37,37,37
+114, Bratislavskaia ,60000,walk,18,Застройщик                 ,50,23,21,25,21,10,41
+115, Volzhskaia ,45000,walk,24,Застройщик                 ,50,7,10,18,19,9,37
+116, Piatnitckoe shosse ,30000,transport,96,owner                 ,0,3,47,14,21,9,3
+117, Kotelniki ,44000,walk,10,Застройщик                 ,50,6,3,12,20,10,39
+118,No data,60000,walk,64,Застройщик                 ,50,1,0,12,20,10,40
+119, Okruzhnaia ,43000,walk,32,Застройщик                 ,50,2,3,5,37,37,37
+120, Krasnye vorota ,60000,walk,18,agency                 ,100,2,4,11,37,37,37
+121, Cherkizovskaia ,45000,walk,11,Застройщик                 ,60,27,26,39,37,37,37
+122, Rasskazovka ,26500,walk,26,agency                 ,60,3,13,3,37,37,37
+123, Rasskazovka ,30000,walk,28,agency                 ,50,2,12,3,37,37,37
+124, Buninskaia Alleia ,43000,transport,28,Застройщик                 ,50,6,23,17,22,11,44
+125, Belomorskaia ,45000,walk,16,Застройщик                 ,50,18,12,19,21,11,45
+126, Belomorskaia ,60000,walk,20,Застройщик                 ,50,4,8,9,19,7,35
+127, Nakhimovskii prospekt ,45000,walk,23,Застройщик                 ,50,1,4,9,18,7,33
+128, Spartak ,60000,walk,39,Застройщик                 ,50,13,10,19,20,9,38
+129, Govorovo ,60000,walk,18,Застройщик                 ,50,16,11,25,19,9,36
+130,No data,60000,walk,52,Застройщик                 ,50,3,0,18,37,37,37
+131,No data,30000,walk,27,agency                 ,100,9,0,14,22,10,45
+132, Iasenevo ,44000,walk,19,agency                 ,0,13,10,22,37,37,37
+133, Nekrasovka ,25000,walk,44,Застройщик                 ,80,2,15,17,37,37,37
+134, Annino ,45000,walk,41,Застройщик                 ,50,5,2,16,19,9,41
+135, Tulskaia ,60000,walk,67,owner                 ,0,3,11,11,37,37,37
+136, Planernaia ,60000,walk,32,Застройщик                 ,50,8,6,16,37,37,37
+137, Salarevo ,60000,walk,35,Застройщик                 ,50,17,9,25,20,10,36
+138, Belorusskaia ,59000,walk,15,agency                 ,0,5,8,8,37,37,37
+139, Rasskazovka ,44000,walk,14,owner                 ,0,2,6,25,37,37,37
+140, Krasnoselskaia ,60000,walk,25,Застройщик                 ,50,5,4,14,19,8,35
+141,No data,60000,walk,51,Застройщик                 ,50,2,0,4,25,11,54
+142, Salarevo ,45000,walk,30,agency                 ,50,4,9,15,37,37,37
+143, Vladykino ,44000,walk,17,agency                 ,50,4,7,5,10,4,8
+144, Buninskaia Alleia ,29200,transport,20,agency                 ,50,5,21,16,10,4,4
+145, Shelepikha ,59000,walk,21,agency                 ,0,2,6,12,19,7,8
+146,No data,59000,walk,17,agency                 ,50,1,0,14,37,37,37
+147,No data,60000,walk,13,agency                 ,50,10,0,33,37,37,37
+148,No data,31200,walk,5,agency                 ,50,5,0,7,15,7,5
+149, Aviamotornaia ,62100,walk,17,agency                 ,50,15,5,23,11,10,4
+150, Govorovo ,57000,walk,26,agency                 ,50,10,6,23,25,10,5
+151,No data,45400,walk,16,agency                 ,50,19,0,33,37,37,37
+152, Salarevo ,57000,walk,28,agency                 ,50,23,19,24,15,16,7
+153, Marina Roshcha ,60000,walk,33,agency                 ,50,8,8,9,37,37,37
+154,No data,29200,walk,19,agency                 ,50,7,0,33,12,4,20
+155, Annino ,57000,walk,49,agency                 ,50,24,8,25,14,4,1
+156, Buninskaia Alleia ,31200,transport,27,agency                 ,50,7,18,15,10,5,24
+157, Proletarskaia ,62000,walk,27,agency                 ,50,2,3,17,37,37,37
+158,No data,61000,walk,50,agency                 ,0,4,0,4,14,4,24
+159, Ploshchad Ilicha ,59000,walk,40,owner                 ,0,1,11,2,37,37,37
+160,No data,45000,walk,13,Застройщик                 ,70,2,0,17,37,37,37
+161,No data,130000,walk,18,agency                 ,0,9,0,30,37,37,37
+162, TcSKA ,130000,walk,12,agency                 ,0,14,14,41,37,37,37
+163, Bagrationovskaia ,60000,walk,15,agency                 ,0,613,10,13217,18,10,40
+164, Tekstilshchiki ,30000,walk,18,agency                 ,0,2,17,5,37,37,37
+165, Okhotnyi riad ,500000,walk,173,agency                 ,0,5,2,10,37,37,37
+166, Okhotnyi riad ,500000,walk,173,agency                 ,0,5,2,10,37,37,37
+167,No data,60000,walk,21,agency                 ,50,1,0,5,18,6,32
+168, Buninskaia Alleia ,58000,walk,24,agency                 ,40,12,7,24,37,37,37
+169, Fili ,135000,walk,11,agency                 ,50,5,18,21,25,12,50
+170, Ulitca 1905 goda ,135000,walk,14,agency                 ,25,8,12,44,26,7,8
+171, Ulitca 1905 goda ,130000,walk,28,agency                 ,0,32,12,44,35,5,50
+172, Vodnyi stadion ,60000,walk,53,agency                 ,40,6,12,23,37,37,37
+173,No data,57500,walk,58,Застройщик                 ,50,4,0,7,20,10,40
+174, Mitino ,30000,transport,68,agency                 ,60,6,42,12,19,12,38
+175, Ulitca 1905 goda ,60000,walk,24,agency                 ,100,3,2,9,22,6,35
+176, Planernaia ,43000,walk,24,Застройщик                 ,50,2,14,12,20,8,39
+177, Sviblovo ,45000,walk,23,Застройщик                 ,70,9,5,17,37,37,37
+178, Sukharevskaia ,130000,walk,47,Застройщик                 ,0,17,9,19,37,37,37
+179, Taganskaia ,60000,walk,41,agency                 ,80,2,12,9,18,7,38
+180, Shelepikha ,62000,walk,16,agency                 ,50,7,13,10,35,15,52
+181, Belorusskaia ,135000,walk,12,agency                 ,0,6,14,9,25,5,5
+182,No data,30000,walk,18,Застройщик                 ,60,6,0,13,16,12,36
+183, Botanicheskii sad ,56500,walk,21,agency                 ,0,3,2,15,37,37,37
+184,No data,57000,walk,19,Застройщик                 ,50,12,0,14,19,8,35
+185,No data,57000,walk,54,owner                 ,0,9,0,14,37,37,37
+186, Dmitrovskaia ,57000,walk,22,Застройщик                 ,50,9,4,9,37,37,37
+187, Petrovskii park ,60000,walk,17,agency                 ,50,9,4,11,37,37,37
+188, Ozernaia ,45000,walk,26,agency                 ,50,11,18,21,37,37,37
+189, Baumanskaia ,58000,walk,19,agency                 ,50,2,3,12,37,37,37
+190, Rasskazovka ,45000,walk,4,agency                 ,50,2,11,25,37,37,37
+191,No data,58000,walk,20,agency                 ,50,10,0,17,37,37,37
+192, Dinamo ,60000,walk,20,agency                 ,40,5,17,6,37,37,37
+193, Strogino ,59000,walk,16,agency                 ,50,20,19,23,37,37,37
+194,No data,60000,walk,14,agency                 ,50,4,0,17,37,37,37
+195,No data,130000,walk,11,agency                 ,0,9,0,33,37,37,37
+196,No data,23000,walk,16,Застройщик                 ,60,3,0,13,37,37,37
+197,No data,45000,walk,13,agency                 ,50,3,0,5,18,6,36
+198, Ramenki ,138500,walk,15,agency                 ,0,48,8,50,37,37,37
+199, Tcvetnoi bulvar ,61000,walk,16,owner                 ,0,1,7,4,37,37,37
+200, Polianka ,135000,walk,27,owner                 ,0,2,4,14,37,37,37
+201, Sokolniki ,60000,walk,14,owner                 ,0,2,6,5,37,37,37
+202, Rasskazovka ,60000,transport,48,Застройщик                 ,50,20,12,24,21,12,45
+203,No data,45000,transport,17,Застройщик                 ,60,5,0,12,20,7,39
+204, Buninskaia Alleia ,58000,walk,15,owner                 ,0,14,10,24,37,37,37
+205, Aviamotornaia ,60000,walk,16,Застройщик                 ,50,23,10,23,19,9,38
+206, Lefortovo ,58000,walk,12,Застройщик                 ,0,2,6,2,37,37,37
+207, Govorovo ,57000,walk,13,Застройщик                 ,50,13,10,15,23,12,57
+208, Akademicheskaia ,60000,walk,22,Застройщик                 ,50,8,6,12,21,9,42
+209, Pechatniki ,45000,walk,24,Застройщик                 ,50,21,10,25,23,12,51
+210, Seligerskaia ,62000,walk,39,Застройщик                 ,50,23,6,38,20,12,35
+211, Minskaia ,43000,transport,11,Застройщик                 ,50,10,22,12,19,8,35
+212, Universitet ,60000,walk,20,Застройщик                 ,50,7,15,14,19,8,35
+213, Butyrskaia ,60000,walk,65,Застройщик                 ,50,2,10,9,20,9,40
+214, Ramenki ,60000,walk,50,Застройщик                 ,50,16,7,16,21,10,43
+215, Bulvar Rokossovskogo ,45000,walk,34,Застройщик                 ,50,8,9,12,20,10,38
+216, Arbatskaia ,130000,walk,18,agency                 ,0,22,8,26,37,37,37
+217,No data,30000,walk,12,owner                 ,0,2,0,14,12,10,37
+218, Bagrationovskaia ,60000,walk,69,Застройщик                 ,50,5,2,5,18,7,33
+219, Oktiabrskaia ,59000,walk,13,agency                 ,0,2,4,9,37,37,37
+220, Prospekt Mira ,57000,walk,46,Застройщик                 ,50,7,12,12,19,10,35
+221, Iugo-Zapadnaia ,60000,transport,35,Застройщик                 ,50,6,11,7,20,9,38
+222, Vladykino ,60000,walk,20,Застройщик                 ,50,16,4,16,37,37,37
+223, Oktiabrskoe pole ,62000,walk,16,agency                 ,0,1,17,24,37,37,37
+224, Chertanovskaia ,45000,walk,21,Застройщик                 ,50,2,12,12,19,8,35
+225, Ziablikovo ,45000,walk,28,Застройщик                 ,50,13,17,25,37,37,37
+226, Novoperedelkino ,29500,transport,7,agency                 ,0,2,21,7,37,37,37
+227,No data,60000,transport,48,Застройщик                 ,50,3,0,9,19,7,33
+228, Kaluzhskaia ,60000,walk,31,Застройщик                 ,50,4,16,21,37,37,37
+229, Tekstilshchiki ,45000,walk,17,Застройщик                 ,50,9,20,25,21,11,44
+230, Mitino ,57750,walk,43,agency                 ,0,5,10,20,37,37,37
+231, Salarevo ,60000,walk,37,agency                 ,50,15,19,25,12,11,4
+232, Timiriazevskaia ,45000,walk,15,agency                 ,65,7,7,9,20,6,30
+233, Dobryninskaia ,45000,walk,21,agency                 ,100,1,5,6,19,6,31
+234, Altufevo ,45000,walk,29,agency                 ,50,7,6,22,37,37,37
+235, Ramenki ,60000,walk,19,agency                 ,60,9,9,17,20,10,40
+236,No data,57000,walk,42,Застройщик                 ,50,10,0,21,22,10,45
+237, Kievskaia ,59000,walk,9,agency                 ,0,2,10,5,37,37,37
+238, Ziablikovo ,30000,walk,21,Застройщик                 ,50,4,10,12,37,37,37
+239, Seligerskaia ,60000,transport,47,Застройщик                 ,50,10,11,14,21,11,45
+240, Salarevo ,45000,walk,17,Застройщик                 ,50,23,19,24,19,8,34
+241,No data,45000,walk,14,Застройщик                 ,50,22,0,22,13,3,21
+242, Buninskaia Alleia ,29000,transport,25,Застройщик                 ,50,3,18,9,37,37,37
+243, Liublino ,43000,walk,23,agency                 ,70,1,11,5,16,6,31
+244, Botanicheskii sad ,60000,walk,21,Застройщик                 ,50,5,2,26,37,37,37
+245,No data,30000,walk,9,agency                 ,0,2,0,4,37,37,37
+246, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+247, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+248, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+249, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+250, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+251, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+252, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+253, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+254, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+255, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+256, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+257, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+258, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+259, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+260, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+261, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+262, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+263, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+264, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+265, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+266, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+267, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+268, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+269, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+270, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+271, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+272, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+273, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+274, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+275, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+276, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+277, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+278, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+279, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+280, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+281, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+282, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+283, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+284, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+285, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+286, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+287, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+288, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+289, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+290, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+291, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+292, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+293, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+294, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+295, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+296, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+297, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+298, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+299, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+300, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+301, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+302, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+303, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+304, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+305, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+306, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+307, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+308, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+309, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+310, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+311, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+312, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+313, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+314, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+315, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+316, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+317, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+318, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+319, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+320, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+321, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+322, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+323, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+324, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+325, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+326, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+327, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+328, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+329, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+330, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+331, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+332, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+333, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+334, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+335, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+336, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+337, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+338, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+339, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+340, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+341, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+342, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+343, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+344, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+345, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+346, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+347, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+348, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+349, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+350, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+351, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+352, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+353, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+354, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+355, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+356, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+357, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+358, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+359, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+360, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+361, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+362, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+363, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+364, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+365, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+366, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+367, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+368, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+369, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+370, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+371, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+372, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+373, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+374, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+375, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+376, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+377, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+378, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+379, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+380, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+381, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+382, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+383, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+384, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+385, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+386, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+387, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+388, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+389, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+390, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+391, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+392, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+393, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+394, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+395, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+396, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+397, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+398, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+399, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+400, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+401, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+402, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+403, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+404, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+405, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+406, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+407, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+408, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+409, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+410, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+411, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+412, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+413, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+414, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+415, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+416, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+417, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+418, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+419, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+420, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+421, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+422, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+423, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+424, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+425, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+426, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+427, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+428, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+429, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+430, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+431, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+432, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+433, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+434, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+435, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+436, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+437, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+438, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+439, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+440, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+441, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+442, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+443, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+444, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+445, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+446, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+447, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+448, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+449, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+450, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+451, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+452, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+453, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+454, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+455, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+456, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+457, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+458, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+459, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+460, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+461, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+462, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+463, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+464, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+465, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+466, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+467, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+468, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+469, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+470, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+471, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+472, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+473, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+474, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+475, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+476, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+477, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+478, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+479, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+480, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+481, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+482, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+483, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+484, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+485, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+486, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+487, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+488, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+489, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+490, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+491, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+492, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+493, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+494, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+495, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+496, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+497, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+498, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+499, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+500, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+501, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+502, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+503, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+504, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+505, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+506, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+507, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+508, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+509, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+510, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+511, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+512, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+513, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+514, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+515, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+516, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+517, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+518, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+519, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+520, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+521, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+522, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+523, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+524, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+525, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+526, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+527, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+528, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+529, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+530, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+531, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+532, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+533, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+534, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+535, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+536, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+537, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+538, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+539, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+540, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+541, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+542, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+543, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+544, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+545, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+546, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+547, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+548, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+549, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+550, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+551, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+552, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+553, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+554, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+555, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+556, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+557, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+558, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+559, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+560, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+561, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+562, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+563, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+564, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+565, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+566, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+567, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+568, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+569, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+570, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+571, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+572, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+573, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+574, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+575, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+576, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+577, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+578, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+579, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+580, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+581, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+582, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+583, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+584, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+585, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+586, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+587, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+588, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+589, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+590, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+591, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+592, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+593, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+594, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+595, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+596, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+597, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+598, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+599, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+600, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+601, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+602, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+603, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+604, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+605, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+606, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+607, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+608, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+609, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+610, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+611, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+612, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+613, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+614, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+615, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+616, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+617, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+618, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+619, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+620, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+621, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+622, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+623, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+624, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+625, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+626, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+627, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+628, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+629, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+630, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+631, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+632, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+633, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+634, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+635, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+636, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+637, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+638, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+639, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+640, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+641, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+642, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+643, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+644, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+645, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+646, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+647, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+648, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+649, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+650, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+651, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+652, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+653, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+654, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+655, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+656, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+657, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+658, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+659, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+660, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+661, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+662, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+663, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+664, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+665, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+666, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+667, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+668, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+669, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+670, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+671, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+672, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+673, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+674, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+675, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+676, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+677, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+678, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+679, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+680, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+681, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+682, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+683, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+684, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+685, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+686, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+687, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+688, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+689, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+690, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+691, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+692, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+693, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+694, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+695, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+696, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+697, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+698, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+699, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+700, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+701, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+702, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+703, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+704, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+705, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+706, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+707, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+708, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+709, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+710, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+711, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+712, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+713, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+714, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+715, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+716, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+717, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+718, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+719, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+720, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+721, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+722, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+723, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+724, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+725, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+726, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+727, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+728, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+729, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+730, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+731, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+732, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+733, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+734, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+735, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+736, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+737, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+738, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+739, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+740, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+741, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+742, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+743, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+744, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+745, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+746, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+747, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+748, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+749, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+750, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+751, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+752, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+753, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+754, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+755, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+756, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+757, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+758, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+759, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+760, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+761, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+762, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+763, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+764, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+765, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+766, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+767, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+768, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+769, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+770, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+771, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+772, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+773, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+774, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+775, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+776, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+777, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+778, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+779, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+780, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+781, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+782, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+783, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+784, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+785, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+786, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+787, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+788, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+789, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+790, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+791, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+792, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+793, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+794, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+795, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+796, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+797, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+798, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+799, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+800, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+801, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+802, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+803, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+804, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+805, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+806, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+807, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+808, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+809, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+810, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+811, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+812, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+813, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+814, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+815, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+816, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+817, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+818, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+819, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+820, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+821, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+822, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+823, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+824, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+825, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+826, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+827, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+828, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+829, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+830, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+831, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+832, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+833, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+834, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+835, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+836, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+837, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+838, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+839, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+840, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+841, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+842, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+843, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+844, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+845, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+846, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+847, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+848, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+849, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+850, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+851, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+852, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+853, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+854, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+855, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+856, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+857, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+858, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+859, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+860, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+861, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+862, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+863, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+864, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+865, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+866, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+867, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+868, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+869, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+870, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+871, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+872, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+873, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+874, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+875, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+876, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+877, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+878, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+879, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+880, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+881, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+882, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+883, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+884, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+885, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+886, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+887, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+888, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+889, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+890, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+891, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+892, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+893, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+894, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+895, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+896, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+897, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+898, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+899, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+900, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+901, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+902, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+903, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+904, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+905, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+906, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+907, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+908, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+909, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+910, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+911, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+912, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+913, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+914, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+915, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+916, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+917, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+918, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+919, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+920, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+921, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+922, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+923, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+924, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+925, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+926, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+927, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+928, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+929, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+930, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+931, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+932, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+933, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+934, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+935, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+936, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+937, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+938, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+939, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+940, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+941, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+942, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+943, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+944, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+945, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+946, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+947, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+948, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+949, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+950, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+951, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+952, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+953, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+954, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+955, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+956, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+957, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+958, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+959, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+960, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+961, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+962, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+963, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+964, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+965, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+966, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+967, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+968, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+969, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+970, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+971, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+972, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+973, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+974, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+975, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+976, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+977, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+978, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+979, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+980, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+981, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+982, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+983, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+984, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+985, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+986, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+987, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+988, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+989, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+990, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+991, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+992, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+993, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+994, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+995, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+996, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+997, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+998, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+999, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+1000, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+1001, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+1002, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+1003, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+1004, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+1005, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+1006, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+1007, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+1008, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+1009, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+1010, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+1011, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+1012, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+1013, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+1014, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+1015, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+1016, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+1017, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+1018, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+1019, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+1020, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+1021, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+1022, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+1023, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+1024, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+1025, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+1026, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+1027, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+1028, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+1029, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+1030, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+1031, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+1032, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+1033, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+1034, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+1035, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+1036, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+1037, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+1038, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+1039, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+1040, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+1041, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+1042, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+1043, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+1044, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+1045, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+1046, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+1047, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+1048, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+1049, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+1050, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+1051, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+1052, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+1053, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+1054, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+1055, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+1056, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+1057, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+1058, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+1059, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+1060, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+1061, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+1062, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+1063, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+1064, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+1065, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+1066, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+1067, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+1068, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+1069, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+1070, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+1071, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+1072, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+1073, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+1074, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+1075, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+1076, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+1077, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+1078, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+1079, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+1080, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+1081, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+1082, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+1083, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+1084, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+1085, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+1086, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+1087, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+1088, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+1089, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+1090, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+1091, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+1092, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+1093, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+1094, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+1095, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+1096, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+1097, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+1098, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+1099, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+1100, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+1101, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+1102, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+1103, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+1104, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+1105, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+1106, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+1107, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+1108, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+1109, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+1110, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+1111, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+1112, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+1113, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+1114, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+1115, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+1116, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+1117, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+1118, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+1119, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+1120, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+1121, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+1122, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+1123, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+1124, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+1125, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+1126, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+1127, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+1128, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+1129, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+1130, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+1131, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+1132, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+1133, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+1134, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+1135, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+1136, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+1137, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+1138, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+1139, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+1140, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+1141, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+1142, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+1143, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+1144, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+1145, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+1146, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+1147, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+1148, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+1149, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+1150, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+1151, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+1152, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+1153, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+1154, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+1155, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+1156, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+1157, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+1158, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+1159, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+1160, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+1161, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+1162, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+1163, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+1164, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+1165, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+1166, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+1167, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+1168, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+1169, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+1170, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+1171, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+1172, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+1173, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+1174, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+1175, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+1176, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+1177, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+1178, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+1179, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+1180, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+1181, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+1182, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+1183, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+1184, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+1185, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+1186, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+1187, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+1188, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+1189, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+1190, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+1191, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+1192, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+1193, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+1194, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+1195, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+1196, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+1197, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+1198, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+1199, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+1200, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+1201, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+1202, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+1203, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+1204, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+1205, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+1206, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+1207, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+1208, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+1209, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+1210, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+1211, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+1212, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+1213, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+1214, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+1215, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+1216, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+1217, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+1218, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+1219, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+1220, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+1221, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+1222, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+1223, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+1224, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+1225, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+1226, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+1227, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+1228, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+1229, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+1230, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+1231, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+1232, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+1233, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+1234, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+1235, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+1236, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+1237, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+1238, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+1239, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+1240, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+1241, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+1242, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+1243, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+1244, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+1245, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+1246, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+1247, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+1248, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+1249, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+1250, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+1251, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+1252, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+1253, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+1254, Shabolovskaia ,20000,walk,73,realtor                 ,50,5,10,8,20,10,40
+1255, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+1256, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+1257, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+1258, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+1259, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+1260, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+1261, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+1262, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+1263, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+1264, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+1265, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+1266, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+1267, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+1268, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+1269, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+1270, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+1271, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+1272, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+1273, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+1274, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+1275, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+1276, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+1277, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+1278, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+1279, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+1280, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+1281, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+1282, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+1283, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+1284, Shabolovskaia ,20000,walk,74,realtor                 ,50,5,10,8,20,10,40
+1285, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+1286, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+1287, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+1288, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+1289, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+1290, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+1291, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+1292, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+1293, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+1294, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+1295, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+1296, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+1297, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+1298, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+1299, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+1300, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+1301, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+1302, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+1303, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+1304, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+1305, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+1306, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+1307, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+1308, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+1309, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+1310, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+1311, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+1312, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+1313, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+1314, Shabolovskaia ,20000,walk,74,realtor                 ,50,5,10,8,20,10,40
+1315, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+1316, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+1317, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+1318, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+1319, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+1320, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+1321, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+1322, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+1323, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+1324, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+1325, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+1326, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+1327, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+1328, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+1329, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+1330, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+1331, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+1332, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+1333, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+1334, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+1335, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+1336, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+1337, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+1338, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+1339, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+1340, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+1341, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+1342, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+1343, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+1344, Shabolovskaia ,20000,walk,74,realtor                 ,50,5,10,8,20,10,40
+1345, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+1346, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+1347, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+1348, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+1349, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+1350, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+1351, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+1352, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+1353, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+1354, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+1355, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+1356, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+1357, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+1358, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+1359, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+1360, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+1361, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+1362, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+1363, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+1364, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+1365, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+1366, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+1367, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+1368, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+1369, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+1370, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+1371, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+1372, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+1373, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+1374, Shabolovskaia ,20000,walk,74,realtor                 ,50,5,10,8,20,10,40
+1375, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+1376, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+1377, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+1378, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+1379, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+1380, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+1381, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+1382, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+1383, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+1384, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+1385, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+1386, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+1387, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+1388, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+1389, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+1390, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+1391, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+1392, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+1393, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+1394, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+1395, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+1396, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+1397, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+1398, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+1399, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+1400, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+1401, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+1402, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+1403, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+1404, Shabolovskaia ,20000,walk,74,realtor                 ,50,5,10,8,20,10,40
+1405, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+1406, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+1407, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+1408, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+1409, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+1410, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+1411, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+1412, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+1413, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+1414, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+1415, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
+1416, Planernaia ,45000,walk,513,realtor                    ,50,7,10,12,19,8,38
+1417, VDNKh ,50000,walk,389,realtor                    ,50,16,10,16,18,8,41
+1418, Alekseevskaia ,50000,walk,483,realtor                    ,50,5,3,12,19,5,33
+1419, Sviblovo ,38000,walk,414,realtor                    ,50,3,15,5,37,37,37
+1420, Rimskaia ,55999,walk,360,realtor                    ,99,6,7,17,21,10,40
+1421, Perovo ,29000,walk,5174,realtor                    ,40,2,15,5,17,7,31
+1422, Nekrasovka ,40000,walk,69,realtor                    ,40,10,5,17,18,11,41
+1423, Planernaia ,39000,walk,795,realtor                    ,50,8,10,9,18,7,33
+1424, Planernaia ,35000,walk,687,realtor                    ,50,6,15,9,17,6,34
+1425, Riazanskii prospekt ,40000,walk,437,realtor                    ,50,9,5,12,20,10,35
+1426, VDNKh ,40000,transport,344,realtor                    ,50,10,5,16,19,10,35
+1427, Medvedkovo ,32000,walk,445,realtor                    ,50,1,15,12,19,7,38
+1428, Medvedkovo ,35000,walk,214,realtor                    ,50,9,10,14,18,10,39
+1429, Khovrino ,38000,walk,224,realtor                    ,50,6,7,9,17,6,33
+1430, Okskaia ,59999,walk,103,realtor                    ,99,3,7,33,17,5,26
+1431, Vystavochnaia ,185000,walk,28,owner                 ,0,4,4,11,14,24,53
+1432, Otradnoe ,38000,walk,283,owner                 ,0,7,5,12,19,10,39
+1433, Kuntcevskaia ,45000,walk,40,owner                 ,0,6,15,9,19,7,33
+1434, Shabolovskaia ,20000,walk,74,realtor                 ,50,5,10,8,20,10,40
+1435, Dobryninskaia ,22000,walk,56,realtor                 ,50,10,5,14,22,11,42
+1436, Paveletckaia ,20000,walk,38,realtor                 ,50,7,6,10,22,11,42
+1437, Altufevo ,37000,walk,21,realtor                 ,30,7,10,12,21,8,38
+1438, Tcaritcyno ,45000,transport,30,owner                 ,0,5,5,15,25,14,52
+1439, Shchelkovskaia ,47000,walk,25,realtor                 ,50,4,12,14,21,10,38
+1440, Skhodnenskaia ,28000,walk,66,realtor                 ,50,4,14,9,10,7,37
+1441, Solntcevo ,25000,walk,189,realtor                 ,0,6,5,23,20,10,36
+1442, Ulitca Starokachalovskaia ,25000,walk,173,realtor                 ,0,5,5,17,20,10,38
+1443, Zhulebino ,25000,walk,102,realtor                 ,0,5,5,12,20,10,35
+1444, Preobrazhenskaia ploshchad ,40000,walk,60,realtor                 ,30,3,17,9,20,8,35
+1445, Rasskazovka ,30000,walk,2728,owner                 ,0,12,10,17,22,8,33
