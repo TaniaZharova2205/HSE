@@ -1,6 +1,6 @@
 import uvicorn
 from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
+from pydantic import BaseModel, root_validator, ValidationError
 from typing import List, Dict
 from http import HTTPStatus
 from sklearn.linear_model import LinearRegression
@@ -13,16 +13,16 @@ app = FastAPI(
 )
 
 class Hyperparameters(BaseModel):
-    fit_intercept: bool
+    fit_intercept: bool = True
 
 class Config(BaseModel):
     hyperparameters: Hyperparameters
-    id: str
+    id: str = "model"
 
 class TrainingData(BaseModel):
     X: List[List[float]] = [[1,2], [3,4]]
     config: Config 
-    y: List[float] = [5,6] 
+    y: List[float] = [5,6]
 
 class SuccessResponse(BaseModel):
     message: str
@@ -51,7 +51,7 @@ class Models(BaseModel):
 models_db = Models()
 loaded_models: Dict[str, LinearRegression] = {}
 
-@app.post("/api/v1/models/fit", response_model=List[SuccessResponse], status_code=HTTPStatus.CREATED)
+@app.post("/fit", response_model=List[SuccessResponse], status_code=HTTPStatus.CREATED)
 async def fit(training_data: List[TrainingData]):
     try:
         responses = []
@@ -80,14 +80,14 @@ async def fit(training_data: List[TrainingData]):
             }]
         )
 
-@app.post("/api/v1/models/load", response_model=List[SuccessResponse], responses={422: {"model": ErrorResponse}})
-async def load(load_model_id: List[Load]):
+@app.post("/load", response_model=List[SuccessResponse], responses={422: {"model": ErrorResponse}})
+async def load(file: Load):
     try:
         responses = []
-        for file in load_model_id:
-            model = joblib.load(f'{file.id}.joblib')
-            loaded_models[file.id] = model
-            responses.append(SuccessResponse(message=f"Model '{file.id}' loaded"))
+        model = joblib.load(f'{file.id}.joblib')
+        loaded_models[file.id] = model
+        print("fit: ",loaded_models)
+        responses.append(SuccessResponse(message=f"Model '{file.id}' loaded"))
         return responses
     except Exception as e:
         raise HTTPException(
@@ -99,14 +99,14 @@ async def load(load_model_id: List[Load]):
             }]
         )
     
-@app.post("/api/v1/models/predict", response_model=List[SuccessPrediction], responses={422: {"model": ErrorResponse}})
-async def predict(predict_model: List[Predict]):
+@app.post("/predict", response_model=List[SuccessPrediction], responses={422: {"model": ErrorResponse}})
+async def predict(predict_model: Predict):
     try:
         responses = []
-        for pred in predict_model:
-            model = loaded_models.get(pred.id)
-            predictions = model.predict(pred.X).tolist()
-            responses.append(SuccessPrediction(predictions=predictions))
+        print(predict_model)
+        model = loaded_models.get(predict_model.id)
+        predictions = model.predict(predict_model.X).tolist()
+        responses.append(SuccessPrediction(predictions=predictions))
         return responses
     except Exception as e:
         raise HTTPException(
@@ -118,17 +118,22 @@ async def predict(predict_model: List[Predict]):
             }]
         )
     
-@app.get("/api/v1/models/list_models", response_model=Models)
+@app.get("/list_models", response_model=List[Model])
 async def list_models():
-    return models_db
+    return models_db.models
 
-@app.delete("/api/v1/models/remove_all", response_model=List[SuccessResponse])
+@app.delete("/remove_all", response_model=List[SuccessResponse])
 async def remove_all():
     responses = []
     for model in models_db.models:
+        print(loaded_models)
         responses.append(SuccessResponse(message=f"Model '{model.id}' removed"))
         os.remove(f'{model.id}.joblib')
-        del loaded_models[model.id]
+        if model.id in loaded_models:
+            del loaded_models[model.id]
     models_db.models = []
     return responses
 
+if __name__ == "__main__":
+    uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True)
+    

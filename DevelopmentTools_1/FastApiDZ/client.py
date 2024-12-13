@@ -2,9 +2,9 @@ import streamlit as st
 import httpx
 import asyncio
 import json
+import time
 
-
-BASE_URL = "http://127.0.0.1:8000/api/v1/models"
+BASE_URL = "http://127.0.0.1:8000"
 
 def generate_large_training_data(rows: int, features: int):
     """Создать большие данные для обучения."""
@@ -14,7 +14,7 @@ def generate_large_training_data(rows: int, features: int):
             "y": [sum(range(features)) + i for i in range(rows)],
             "config": {
                 "hyperparameters": {"fit_intercept": True},
-                "id": f"model_{rows}_{features}"
+                "id": f"model1"
             },
         },
         {
@@ -22,16 +22,22 @@ def generate_large_training_data(rows: int, features: int):
             "y": [sum(range(features)) * i for i in range(rows)],
             "config": {
                 "hyperparameters": {"fit_intercept": True},
-                "id": f"model_{rows}_{features}"
+                "id": f"model2"
             },
         },
     ]
+
+def generate_prediction_data(features: int):
+    """Создать данные для предсказания."""
+    return {"id": "model1", "X": [[i for i in range(features)]]}
+
 
 async def train_model(data):
     """Отправка данных для обучения модели."""
     async with httpx.AsyncClient() as client:
         response = await client.post(f"{BASE_URL}/fit", json=data)
         response.raise_for_status()
+        time.sleep(120)
         return response.json()
 
 
@@ -89,7 +95,7 @@ def app():
         training_data = st.text_area(
             "💾 Данные для обучения двух моделей:",
             value=json.dumps(
-                generate_large_training_data(1000, 100000),
+                generate_large_training_data(100, 5000),
                 indent=2,
             ),
         )
@@ -107,22 +113,22 @@ def app():
                     st.error(f"⚠️ Ошибка: {str(e)}")
 
     elif menu == "Загрузка модели":
-        st.header("📤 Загрузка моделей")
+        st.header("📤 Загрузка модели")
         load_data = st.text_area(
-            "Введите данные для загрузки моделей:",
+            "Введите данные для загрузки модели:",
             value=json.dumps(
-                [{"id": "model_1"}, {"id": "model_2"}],
+                {"id": "model1"},
                 indent=2,
             ),
         )
 
         if st.button("📤 Загрузить модели"):
-            with st.spinner("📤 Загрузка моделей..."):
+            with st.spinner("📤 Загрузка модели..."):
                 try:
                     loop = asyncio.new_event_loop()
                     asyncio.set_event_loop(loop)
                     results = loop.run_until_complete(load_model(json.loads(load_data)))
-                    st.success("✅ Модели загружены!")
+                    st.success("✅ Модель загружены!")
                     st.json(results)
                 except Exception as e:
                     st.error(f"⚠️ Ошибка: {str(e)}")
@@ -132,10 +138,7 @@ def app():
         prediction_data = st.text_area(
             "📊 Данные для предсказания:",
             value=json.dumps(
-                [
-                    {"id": "model_1", "X": [[10, 11, 12, 13], [20, 21, 22, 23]]},
-                    {"id": "model_2", "X": [[30, 32, 34, 36], [40, 42, 44, 46]]},
-                ],
+                generate_prediction_data(5000),
                 indent=2,
             ),
         )
