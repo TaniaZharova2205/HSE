@@ -2,24 +2,34 @@ import streamlit as st
 import httpx
 import asyncio
 import json
-import time
+from sklearn.datasets import make_blobs
 
 BASE_URL = "http://127.0.0.1:8000"
 
-def generate_large_training_data(rows: int, features: int):
+row = 1000000
+feature = 40
+center = 2
+
+def generate_data(n_samples, n_features, centers):
+    X, y = make_blobs(n_samples=n_samples, n_features=n_features, centers=centers, random_state=42)
+    return X,y
+
+def generate_large_training_data(rows: int, features: int, centers: int):
     """Создать большие данные для обучения."""
+    model1 = generate_data(rows, features, centers)
+    model2 = generate_data(rows, features, centers)
     return [
         {
-            "X": [[j + i for j in range(features)] for i in range(rows)],
-            "y": [sum(range(features)) + i for i in range(rows)],
+            "X": model1[0].tolist(),
+            "y": model1[1].tolist(),
             "config": {
                 "hyperparameters": {"fit_intercept": True},
                 "id": f"model1"
             },
         },
         {
-            "X": [[j * i for j in range(features)] for i in range(rows)],
-            "y": [sum(range(features)) * i for i in range(rows)],
+            "X": model2[0].tolist(),
+            "y": model2[1].tolist(),
             "config": {
                 "hyperparameters": {"fit_intercept": True},
                 "id": f"model2"
@@ -34,10 +44,9 @@ def generate_prediction_data(features: int):
 
 async def train_model(data):
     """Отправка данных для обучения модели."""
-    async with httpx.AsyncClient() as client:
+    async with httpx.AsyncClient(timeout=1000) as client:
         response = await client.post(f"{BASE_URL}/fit", json=data)
         response.raise_for_status()
-        time.sleep(120)
         return response.json()
 
 
@@ -92,21 +101,14 @@ def app():
 
     if menu == "Обучение":
         st.header("🔥 Обучение двух моделей")
-        training_data = st.text_area(
-            "💾 Данные для обучения двух моделей:",
-            value=json.dumps(
-                generate_large_training_data(100, 5000),
-                indent=2,
-            ),
-        )
-
 
         if st.button("💃 Начать обучение двух моделей"):
             with st.spinner("✨ Обучение моделей..."):
                 try:
+                    training_data = generate_large_training_data(row, feature, center)
                     loop = asyncio.new_event_loop()
                     asyncio.set_event_loop(loop)
-                    results = loop.run_until_complete(train_model(json.loads(training_data)))
+                    results = loop.run_until_complete(train_model(training_data))
                     st.success("✅ Обучение завершено!")
                     st.json(results)
                 except Exception as e:
@@ -138,7 +140,7 @@ def app():
         prediction_data = st.text_area(
             "📊 Данные для предсказания:",
             value=json.dumps(
-                generate_prediction_data(5000),
+                generate_prediction_data(feature),
                 indent=2,
             ),
         )

@@ -1,6 +1,6 @@
 import uvicorn
 from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel, root_validator, ValidationError
+from pydantic import BaseModel
 from typing import List, Dict
 from http import HTTPStatus
 from sklearn.linear_model import LinearRegression
@@ -103,7 +103,6 @@ async def load(file: Load):
 async def predict(predict_model: Predict):
     try:
         responses = []
-        print(predict_model)
         model = loaded_models.get(predict_model.id)
         predictions = model.predict(predict_model.X).tolist()
         responses.append(SuccessPrediction(predictions=predictions))
