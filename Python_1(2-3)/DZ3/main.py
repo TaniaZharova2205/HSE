@@ -1,11 +1,10 @@
-from fastapi import FastAPI, Depends, HTTPException
+from fastapi import FastAPI, Depends
 from collections.abc import AsyncIterator
 from contextlib import asynccontextmanager
 from auth.users import auth_backend, current_active_user, fastapi_users
-from auth.schemas import UserCreate, UserRead #, UserUpdate
-from auth.db import User, create_db_and_tables
-from links.router import router as booking_router
-# from tasks.router import router as tasks_router
+from auth.schemas import UserCreate, UserRead 
+from auth.db import User
+from links.router import router as links_router
 from redis import asyncio as aioredis
 from fastapi_cache import FastAPICache
 from fastapi_cache.backends.redis import RedisBackend
@@ -17,7 +16,6 @@ import uvicorn
 async def lifespan(_: FastAPI) -> AsyncIterator[None]:
     redis = aioredis.from_url("redis://localhost")
     FastAPICache.init(RedisBackend(redis), prefix="fastapi-cache")
-    # await create_db_and_tables()
     yield
 
 
@@ -32,11 +30,10 @@ app.include_router(
     tags=["auth"],
 )
 
-app.include_router(booking_router)
-# app.include_router(tasks_router)
+app.include_router(links_router)
 
 
-@app.get("/protected-route")
+@app.get("/authenticated-route")
 def protected_route(user: User = Depends(current_active_user)):
     return f"Hello, {user.email}"
 
@@ -47,4 +44,4 @@ def unprotected_route():
 
 
 if __name__ == "__main__":
-    uvicorn.run("main:app", reload=True, host="0.0.0.0", log_level="info")
+    uvicorn.run("main:app", reload=True, host="127.0.0.1", log_level="info")

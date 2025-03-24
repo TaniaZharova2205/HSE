@@ -9,3 +9,7 @@ DB_PASS = os.getenv("DB_PASS")
 DB_HOST = os.getenv("DB_HOST")
 DB_PORT = os.getenv("DB_PORT")
 DB_NAME = os.getenv("DB_NAME")
+SMTP_PASSWORD = os.getenv("SMTP_PASSWORD")
+SMTP_USER = os.getenv("SMTP_USER")
+
+SECRET = "YOUR_SECRET_HERE"
