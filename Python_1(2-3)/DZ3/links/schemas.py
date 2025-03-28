@@ -6,6 +6,7 @@ from uuid import UUID
 class LinkCreate(BaseModel):
     long_link: HttpUrl
     expires_at: datetime | None = None
+    custom_alias: str | None = None
 
 class LinkUpdate(BaseModel):
     long_link: HttpUrl | None = None
