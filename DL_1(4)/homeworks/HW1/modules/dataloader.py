@@ -1,3 +1,5 @@
+import numpy as np
+
 class DataLoader(object):
     """
     Tool for shuffling data and forming mini-batches
@@ -16,32 +18,41 @@ class DataLoader(object):
         self.shuffle = shuffle
         self.batch_id = 0  # use in __next__, reset in __iter__
 
+    # использовала ChatGPT с моделью GPT-4-turbo. Промт:
+    '''
+        Почему не работает функция __len__(self) DataLoader:
+        def __len__(self) -> int:
+            return self.X.shape[0] // self.batch_size
+    '''
     def __len__(self) -> int:
-        """
-        :return: number of batches per epoch
-        """
-        # replace with your code ｀、ヽ｀、ヽ(ノ＞＜)ノ ヽ｀☂｀、ヽ
-        return 0
+        return int(np.ceil(self.X.shape[0] / self.batch_size)) 
 
     def num_samples(self) -> int:
         """
         :return: number of data samples
         """
-        # replace with your code ｀、ヽ｀、ヽ(ノ＞＜)ノ ヽ｀☂｀、ヽ
-        return 0
+        return self.X.shape[0]
 
     def __iter__(self):
         """
         Shuffle data samples if required
         :return: self
         """
-        # your code here ｀、ヽ｀、ヽ(ノ＞＜)ノ ヽ｀☂｀、ヽ
+        self.batch_id = 0
+        if self.shuffle:
+            indices = np.random.permutation(self.X.shape[0]) # перемешиваем индексы
+            self.X = self.X[indices]
+            self.y = self.y[indices]
         return self
 
+    # алгоритм взят из https://stackoverflow.com/questions/19151/how-to-build-a-basic-iterator 
     def __next__(self):
-        """
-        Form and return next data batch
-        :return: (x_batch, y_batch)
-        """
-        # your code here ｀、ヽ｀、ヽ(ノ＞＜)ノ ヽ｀☂｀、ヽ
+        if self.batch_id < len(self):    
+            start = self.batch_id * self.batch_size # индекс первого элемента в батче
+            end = min(start + self.batch_size, self.X.shape[0]) # индекс последнего элемента в батче
+            X_batch = self.X[start:end]
+            y_batch = self.y[start:end]
+            
+            self.batch_id += 1 # увеличиваем номер батча на 1, чтобы получить следующий батч в следующем вызове
+            return X_batch, y_batch
         raise StopIteration

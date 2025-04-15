@@ -129,7 +129,7 @@ class BatchNormalization(Module):
             output = self.norm_input
         return output
 
-    # https://medium.com/@sofeikov/batch-normalisation-formulas-derivation-253df5b75220
+    # Все формулы для расчёта градиентов были взяты из https://medium.com/@sofeikov/batch-normalisation-formulas-derivation-253df5b75220
     def compute_grad_input(self, input: np.ndarray, grad_output: np.ndarray) -> np.ndarray:
         """
         :param input: array of shape (batch_size, num_features)
@@ -206,7 +206,7 @@ class Dropout(Module):
         :return: array of the same size
         """
         if self.training == True:
-            grad_input = self.mask / (1 - self.p) * grad_output
+            grad_input = self.mask / (1 - self.p) * grad_output # производная от функции потерь по входу та же, что и по выходу
         else:
             grad_input = grad_output
         return grad_input
@@ -228,8 +228,9 @@ class Sequential(Module):
         :param input: array of size matching the input size of the first layer
         :return: array of size matching the output size of the last layer
         """
+        # https://github.com/pytorch/pytorch/blob/1eba9b3aa3c43f86f4a2c807ac8e12c4a7767340/torch/nn/modules/container.py#L248
         for module in self.modules:
-            input = module.compute_output(input)
+            input = module(input) 
         return input
 
     def compute_grad_input(self, input: np.ndarray, grad_output: np.ndarray) -> np.ndarray:
@@ -240,17 +241,15 @@ class Sequential(Module):
         """
         inputs = [input]
         for module in self.modules:
-            input = module.compute_output(input)
-            inputs.append(input)
+            input = module(input)
+            inputs.append(input) # сохраняем входы для каждого слоя
 
         grad = grad_output
         for i in reversed(range(len(self.modules))):
-            module = self.modules[i]
-            input_i = inputs[i]
-            
-            module.update_grad_parameters(input_i, grad)
-            grad = module.compute_grad_input(input_i, grad)
-            module.update_grad_parameters(input_i, grad)
+            module = self.modules[i] 
+            input_i = inputs[i] 
+            module.update_grad_parameters(input_i, grad) # обновляем градиенты
+            grad = module.compute_grad_input(input_i, grad) # вычисляем градиенты
         
         return grad
 

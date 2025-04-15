@@ -26,16 +26,17 @@ class SGD(Optimizer):
         if 'm' not in self.state:
             self.state['m'] = [np.zeros_like(param) for param in parameters]
 
+        # Алгоритм SGD из документации https://pytorch.org/docs/stable/generated/torch.optim.SGD.html
         for param, grad, m in zip(parameters, gradients, self.state['m']):
-            """
-            your code here ｀、ヽ｀、ヽ(ノ＞＜)ノ ヽ｀☂｀、ヽ
-              - update momentum variable (m)
-              - update parameter variable (param)
-            hint: consider using np.add(..., out=m) for in place addition,
-              i.e. we need to change original array, not its copy
-            """
-            pass
-
+            g = grad
+            if self.weight_decay > 0:
+                g += self.weight_decay * param
+            if self.momentum > 0:
+                m[:] = self.momentum * m - self.lr * g  # обновление момента
+                param += m  
+            else:
+                param -= self.lr * g
+                
 
 class Adam(Optimizer):
     """
@@ -68,13 +69,12 @@ class Adam(Optimizer):
 
         self.state['t'] += 1
         t = self.state['t']
+        # Алгоритм Adam из документации https://pytorch.org/docs/stable/generated/torch.optim.Adam.html
         for param, grad, m, v in zip(parameters, gradients, self.state['m'], self.state['v']):
-            """
-            your code here ｀、ヽ｀、ヽ(ノ＞＜)ノ ヽ｀☂｀、ヽ
-              - update first moment variable (m)
-              - update second moment variable (v)
-              - update parameter variable (param)
-            hint: consider using np.add(..., out=m) for in place addition,
-              i.e. we need to change original array, not its copy
-            """
-            pass
+            g = grad
+            if self.weight_decay > 0:
+                g += self.weight_decay * param
+
+            m[:] = self.beta1 * m + (1 - self.beta1) * g # обновление первого момента
+            v[:] = self.beta2 * v + (1 - self.beta2) * (g ** 2) # обновление второго момента
+            param -= self.lr * m / (1 - self.beta1 ** t) / (np.sqrt(v / (1 - self.beta2 ** t)) + self.eps)

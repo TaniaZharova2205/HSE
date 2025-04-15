@@ -13,9 +13,10 @@ class MSELoss(Criterion):
         :param target:  array of size (batch_size, *)
         :return: loss value
         """
-        assert input.shape == target.shape, 'input and target shapes not matching'
-        # replace with your code ｀、ヽ｀、ヽ(ノ＞＜)ノ ヽ｀☂｀、ヽ
-        return super().compute_output(input, target)
+        B, N = input.shape
+        coef = 1 / (B*N)
+        output = coef*np.sum((input - target) ** 2)
+        return output
 
     def compute_grad_input(self, input: np.ndarray, target: np.ndarray) -> np.ndarray:
         """
@@ -23,9 +24,10 @@ class MSELoss(Criterion):
         :param target:  array of size (batch_size, *)
         :return: array of size (batch_size, *)
         """
-        assert input.shape == target.shape, 'input and target shapes not matching'
-        # replace with your code ｀、ヽ｀、ヽ(ノ＞＜)ノ ヽ｀☂｀、ヽ
-        return super().compute_grad_input(input, target)
+        B, N = input.shape
+        coef = 1 / (B*N) 
+        grad_input = coef*2*(input - target) 
+        return grad_input
 
 
 class CrossEntropyLoss(Criterion):
@@ -42,8 +44,10 @@ class CrossEntropyLoss(Criterion):
         :param target: labels array of size (batch_size, )
         :return: loss value
         """
-        # replace with your code ｀、ヽ｀、ヽ(ノ＞＜)ノ ヽ｀☂｀、ヽ
-        return super().compute_output(input, target)
+        B = input.shape[0]
+        log_p = self.log_softmax(input)
+        output = -1/B*np.sum(log_p[np.arange(B), target])
+        return output
 
     def compute_grad_input(self, input: np.ndarray, target: np.ndarray) -> np.ndarray:
         """
@@ -51,5 +55,6 @@ class CrossEntropyLoss(Criterion):
         :param target: labels array of size (batch_size, )
         :return: array of size (batch_size, num_classes)
         """
-        # replace with your code ｀、ヽ｀、ヽ(ノ＞＜)ノ ヽ｀☂｀、ヽ
-        return super().compute_grad_input(input, target)
+        B, N = input.shape
+        log_p = self.log_softmax(input)
+        return (np.exp(log_p) - np.eye(N)[target]) / B 
