@@ -24,7 +24,7 @@ class LanguageModel(nn.Module):
         YOUR CODE HERE (⊃｡•́‿•̀｡)⊃━✿✿✿✿✿✿
         Create necessary layers
         """
-        self.embedding = nn.Embedding(self.vocab_size, embed_size, padding_idx=dataset.pad_id)
+        self.embedding = nn.Embedding(self.vocab_size, embed_size)
         self.rnn = rnn_type(
             input_size=embed_size,
             hidden_size=hidden_size,
@@ -46,7 +46,6 @@ class LanguageModel(nn.Module):
         Convert indices to embeddings, pass them through recurrent layers
         and apply output linear layer to obtain the logits
         """
-
         device = next(self.parameters()).device
         indices = indices.to(device)
         lengths = lengths.to(device)
@@ -75,35 +74,27 @@ class LanguageModel(nn.Module):
         Do not forget to divide predicted logits by temperature before sampling
         """
         # алгоритм взят из https://www.cs.toronto.edu/~lczhang/360/lec/w08/gen.html
-        device = next(self.parameters()).device
+
+        input_ids = [self.dataset.bos_id] + self.dataset.text2ids(prefix)
+        input_tensor = torch.tensor(input_ids, dtype=torch.long).unsqueeze(0).to(next(self.parameters()).device)
+        embedded = self.embedding(input_tensor)
+        _, hidden = self.rnn(embedded)
         
-        tokens = [self.dataset.bos_id] + self.dataset.text2ids(prefix)
-        input_ids = torch.tensor(tokens, dtype=torch.long, device=device).unsqueeze(0)
-        hidden = None
-        if isinstance(self.rnn, nn.LSTM):
-            # Для LSTM:
-            h = torch.zeros(self.rnn.num_layers, 1, self.rnn.hidden_size, device=device)
-            c = torch.zeros(self.rnn.num_layers, 1, self.rnn.hidden_size, device=device)
-            hidden = (h, c)
-        elif isinstance(self.rnn, nn.RNN):
-            # Для RNN:
-            hidden = torch.zeros(self.rnn.num_layers, 1, self.rnn.hidden_size, device=device)
-        
-        embedded = self.embedding(input_ids)  
-        _, hidden = self.rnn(embedded, hidden)
-        
-        generated = tokens.copy()
-        next_token = generated[-1]
-        
-        for _ in range(self.max_length - len(generated)):
-            inp = torch.tensor([[next_token]], dtype=torch.long, device=device)
-            emb = self.embedding(inp)  
-            out, hidden = self.rnn(emb, hidden)
-            logits = self.linear(out[:, -1, :]) / temp
+        # Начинаем с последнего токена из префикса
+        next_input = input_tensor[0, -1].unsqueeze(0).unsqueeze(0)
+        generated_ids = input_ids.copy()
+
+        for _ in range(self.max_length - len(input_ids)):
+            embedded = self.embedding(next_input)
+            output, hidden = self.rnn(embedded, hidden)
+            logits = self.linear(output[:, -1, :]) / temp 
             probs = torch.softmax(logits, dim=-1)
             next_token = torch.multinomial(probs, num_samples=1).item()
-            generated.append(next_token)
+
             if next_token == self.dataset.eos_id:
                 break
-        generated_text = self.dataset.ids2text(generated[1:])
-        return generated_text
+
+            generated_ids.append(next_token)
+            next_input = torch.tensor([[next_token]], dtype=torch.long).to(next(self.parameters()).device)
+        genetate = self.dataset.ids2text(generated_ids)
+        return genetate

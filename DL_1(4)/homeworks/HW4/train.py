@@ -56,7 +56,7 @@ def training_epoch(model: LanguageModel, optimizer: torch.optim.Optimizer, crite
     """
     device = next(model.parameters()).device
     train_loss = 0.0
-    total_tokens = 0
+
     model.train()
     for indices, lengths in tqdm(loader, desc=tqdm_desc):
         """
@@ -65,27 +65,29 @@ def training_epoch(model: LanguageModel, optimizer: torch.optim.Optimizer, crite
         call backward and make one optimizer step.
         Accumulate sum of losses for different batches in train_loss
         """
-        indices = indices.to(device)
-        lengths = lengths.to(device)
-        logits = model(indices[:, :-1], lengths - 1)
-        targets = indices[:, 1:] 
-        loss = 0
-        batch_size = indices.size(0)
-        for i in range(batch_size):
-            # Get the valid portion of the sequence (excluding padding)
-            valid_length = (lengths - 1)[i]
-            if valid_length <= 0:
-                continue
-            seq_logits = logits[i, :valid_length]
-            seq_targets = targets[i, :valid_length]
-            loss += criterion(seq_logits, seq_targets)
-            total_tokens += valid_length.item()
-        loss = loss / batch_size
+        indices, lengths = indices.to(device), lengths.to(device)
+
         optimizer.zero_grad()
+        
+        # Предсказываем следующее слово
+        inputs = indices[:, :-1]
+        targets = indices[:, 1:]
+
+        # Обрезаем по max длине в батче
+        max_len = lengths.max().item() - 1
+        inputs = inputs[:, :max_len]
+        targets = targets[:, :max_len]
+        lengths = torch.clamp(lengths - 1, min=1)
+
+        logits = model(inputs, lengths)  # (batch, seq_len, vocab_size)
+        loss = criterion(logits.reshape(-1, logits.size(-1)), targets.reshape(-1))
+
         loss.backward()
         optimizer.step()
-        train_loss += loss.item() * batch_size
-    train_loss /= total_tokens if total_tokens > 0 else 1
+
+        train_loss += loss.item() * inputs.size(0)
+
+    train_loss /= len(loader.dataset)
     return train_loss
 
 
@@ -102,8 +104,7 @@ def validation_epoch(model: LanguageModel, criterion: nn.Module,
     """
     device = next(model.parameters()).device
     val_loss = 0.0
-    total_tokens = 0
-    
+
     model.eval()
     for indices, lengths in tqdm(loader, desc=tqdm_desc):
         """
@@ -111,37 +112,22 @@ def validation_epoch(model: LanguageModel, criterion: nn.Module,
         Process one validation step: calculate loss.
         Accumulate sum of losses for different batches in val_loss
         """
-        indices = indices.to(device)
-        lengths = lengths.to(device)
-        
-        # Forward pass
-        logits = model(indices[:, :-1], lengths - 1)
-        targets = indices[:, 1:]
-        
-        # Calculate the actual sequence lengths (without BOS/EOS)
-        seq_lengths = lengths - 1
-        
-        # Calculate loss for each sequence up to its actual length
-        batch_loss = 0
-        batch_size = indices.size(0)
-        batch_tokens = 0
-        for i in range(batch_size):
-            # Get the valid portion of the sequence (excluding padding)
-            valid_length = seq_lengths[i]
-            if valid_length <= 0:
-                continue
-                
-            # Calculate loss for this sequence
-            seq_logits = logits[i, :valid_length]
-            seq_targets = targets[i, :valid_length]
-            batch_loss += criterion(seq_logits, seq_targets).item()
-            batch_tokens += valid_length.item()
-        
-        if batch_tokens > 0:
-            val_loss += batch_loss
-            total_tokens += batch_tokens
+        indices, lengths = indices.to(device), lengths.to(device)
 
-    val_loss /= total_tokens if total_tokens > 0 else 1
+        inputs = indices[:, :-1]
+        targets = indices[:, 1:]
+
+        max_len = lengths.max().item() - 1
+        inputs = inputs[:, :max_len]
+        targets = targets[:, :max_len]
+        lengths = torch.clamp(lengths - 1, min=1)
+
+        logits = model(inputs, lengths)
+        loss = criterion(logits.reshape(-1, logits.size(-1)), targets.reshape(-1))
+
+        val_loss += loss.item() * inputs.size(0)
+
+    val_loss /= len(loader.dataset)
     return val_loss
 
 
