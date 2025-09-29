@@ -140,8 +140,8 @@ services:
     image: ghcr.io/mlflow/mlflow:v2.15.1
     environment:
       MLFLOW_S3_ENDPOINT_URL: https://storage.yandexcloud.net
-      AWS_ACCESS_KEY_ID: #YCAJEWo-omZ3kNg63HnHyL371
-      AWS_SECRET_ACCESS_KEY: #YCPHdk3sVXYr_tBLvjjpjbOn-I40wAzTbPhDyUuq
+      AWS_ACCESS_KEY_ID: #YourCode
+      AWS_SECRET_ACCESS_KEY: #YourCode
       AWS_DEFAULT_REGION: ru-central1
     command:
       - bash
@@ -169,8 +169,8 @@ services:
     environment:
       MLFLOW_TRACKING_URI: http://mlflow-service:5000
       AWS_ENDPOINT_URL: https://storage.yandexcloud.net
-      AWS_ACCESS_KEY_ID: #YCAJEWo-omZ3kNg63HnHyL371
-      AWS_SECRET_ACCESS_KEY: #YCPHdk3sVXYr_tBLvjjpjbOn-I40wAzTbPhDyUuq
+      AWS_ACCESS_KEY_ID: #YourCode
+      AWS_SECRET_ACCESS_KEY: #YourCode
       AWS_DEFAULT_REGION: ru-central1
     depends_on:
       - mlflow-service
