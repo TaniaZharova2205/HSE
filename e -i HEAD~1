@@ -1,0 +1,563 @@
+[33mcommit 00ea8285d33f6e77c9f01c0fc35db24469ad5b4c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Mon Oct 13 16:23:49 2025 +0300
+
+    GenModels
+
+[33mcommit 995d58e9ca73ecb8cf3110f830eb1060c95685f2[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: TaniaZharova2205 <140263503+TaniaZharova2205@users.noreply.github.com>
+Date:   Tue Oct 7 01:19:54 2025 +0300
+
+    Update docker-compose.yml
+
+[33mcommit 5d679bb08abc5ffaa2ed593a80491e1ef6064ba8[m
+Author: Tanya Zharova <tanyazharova416@gmail.com>
+Date:   Tue Oct 7 01:17:58 2025 +0300
+
+    HW2 MLOps
+
+[33mcommit a5a0ef6a76ee8296bb5d28ec9cc9d2f2930cce18[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Mon Sep 29 08:20:32 2025 +0300
+
+    минус ключи
+
+[33mcommit d3703ea89d5d4783f1e5b8e930a2736d4f22240a[m
+Author: Tanya Zharova <tanyazharova416@gmail.com>
+Date:   Thu Sep 25 14:21:11 2025 +0300
+
+    Ключи удалила
+
+[33mcommit 2a8a09063d1d7c91b9a524b4f1d8dd7307968cbe[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Thu Sep 25 14:05:21 2025 +0300
+
+    NLP HW1
+
+[33mcommit 894d1ed14a75becdf042c59fecea38b4bd5fb716[m
+Author: Tanya Zharova <tanyazharova416@gmail.com>
+Date:   Thu Sep 25 13:54:24 2025 +0300
+
+    ДЗ МЛОПС
+
+[33mcommit 3440da3788dc8a1de142066f4d2044be87266b65[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Mon Jun 30 16:09:37 2025 +0300
+
+    Dl answer
+
+[33mcommit 9cec389df281ef4dd861194879c7940be33a8f69[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Fri Jun 20 14:57:34 2025 +0300
+
+    algoritm
+
+[33mcommit 784bf666d09ab760b702ea1b5353fe6384222481[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Thu Jun 19 16:36:50 2025 +0300
+
+    Add dz statistic
+
+[33mcommit 8d186690fe06b2156c10c51164755502b120e085[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Wed Jun 18 11:17:43 2025 +0300
+
+    dz4
+
+[33mcommit 27abf8961928955f4d5ca9fc03163cc5cb0a1373[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Tue Jun 17 17:10:48 2025 +0300
+
+    DL
+
+[33mcommit 22c6e05f1be1f4dfe776146a927b20bcf54f5d02[m
+Author: TaniaZharova2205 <taniazharova416@gmail.com>
+Date:   Sun Jun 15 18:40:00 2025 +0300
+
+    algoritm
+
+[33mcommit 3727d9543602066c81a07d5f5b9e3cd92fed1664[m
+Author: TaniaZharova2205 <taniazharova416@gmail.com>
+Date:   Sat Jun 14 13:44:45 2025 +0300
+
+    Recsis_1(3-4)/DZ5/DZ5.ipynb
+
+[33mcommit 11dae610204606d781246c327935a50eb05857bf[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Tue Jun 10 14:27:58 2025 +0300
+
+    rec
+
+[33mcommit 257054725cfaa2408fd88e39b74552a8a47a7dd2[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Tue Jun 10 13:07:17 2025 +0300
+
+    rec
+
+[33mcommit c1497a854a48e802ac9a23dd86708793bed508d8[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Mon Jun 9 17:28:50 2025 +0300
+
+    recsys
+
+[33mcommit 73941bf34f2594bb607537d3d9614ff751fc4d26[m
+Author: TaniaZharova2205 <taniazharova416@gmail.com>
+Date:   Sun Jun 8 00:17:50 2025 +0300
+
+    dl
+
+[33mcommit bf4d62ddbfd32338e419b3eef52cdcc59ac121d5[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Fri Jun 6 15:09:28 2025 +0300
+
+    dl model
+
+[33mcommit a1702b2ecc64b0d4e5f24a10bb74a911f164acdf[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Fri Jun 6 07:37:39 2025 +0300
+
+    dl and algoritm
+
+[33mcommit 9ffd2af6e67be16b3c560a1c8871195d0bdb2cef[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Thu Jun 5 08:10:27 2025 +0300
+
+    DL пока так(
+
+[33mcommit 4d32fdfd164194daaa31bc2d891a14c1da003cd8[m
+Author: TaniaZharova2205 <taniazharova416@gmail.com>
+Date:   Sat May 31 23:55:29 2025 +0300
+
+    добавила kr
+
+[33mcommit 14e93193e4b425268f8482bca7e799898c5386be[m
+Author: TaniaZharova2205 <taniazharova416@gmail.com>
+Date:   Sat May 31 20:12:53 2025 +0300
+
+    leetcode
+
+[33mcommit 0b780f8334efea95f16c49a5d79bfae9f5f9c851[m
+Merge: 25e7cc4 39bcb54
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Fri May 30 15:27:17 2025 +0300
+
+    Merge branch 'main' of https://github.com/TaniaZharova2205/HSE
+
+[33mcommit 25e7cc4104d6453cdef07cfefac1c7159d6b8647[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Fri May 30 15:26:26 2025 +0300
+
+    all
+
+[33mcommit 39bcb547cc0e730393b51758b0ecc71f5360cd01[m
+Author: TaniaZharova2205 <taniazharova416@gmail.com>
+Date:   Sun May 25 16:41:56 2025 +0300
+
+    dz5
+
+[33mcommit 1397834299395801abd139b5576b635521dd8fb5[m
+Author: TaniaZharova2205 <taniazharova416@gmail.com>
+Date:   Sun May 25 16:40:00 2025 +0300
+
+    dz5
+
+[33mcommit 63cff0f370488ccb03244912e85bfe164bfb5637[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Fri May 16 16:55:07 2025 +0300
+
+    DZ
+
+[33mcommit 777d2567523453416cb8ffee0180a9a0826a7141[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Fri Apr 25 08:51:24 2025 +0300
+
+    алгоритмы ДЗ №3
+
+[33mcommit 28f080660a26661e4a35b1fa696ffd25a6458249[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Wed Apr 23 19:09:46 2025 +0300
+
+    DL
+
+[33mcommit a5bf8a7baf4d25c6eeac7ed194aa72ab98ee4d0f[m
+Author: TaniaZharova2205 <taniazharova416@gmail.com>
+Date:   Sun Apr 20 12:36:04 2025 +0300
+
+    DZ 2 алгоритмы
+
+[33mcommit 9d46071ef5f48e012f5fcbf051a317d31ce9133d[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Fri Apr 18 15:25:18 2025 +0300
+
+    algoritm
+
+[33mcommit acb3599d6418c4a2e3d0552944349f713d0fab25[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Thu Apr 17 16:13:55 2025 +0300
+
+    Statitstic
+
+[33mcommit 94a587481324ca72e0c945e28f4834114b127407[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Tue Apr 15 17:09:00 2025 +0300
+
+    dl dz1 all
+
+[33mcommit 0e5fb3308dbc1dd9f8d7ed311f68a0d20596db51[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Mon Apr 14 18:52:16 2025 +0300
+
+    DL Bonus
+
+[33mcommit 5b74eaa7f0479483592c0bc07e5444f5c2728471[m
+Author: TaniaZharova2205 <taniazharova416@gmail.com>
+Date:   Sat Apr 12 20:39:33 2025 +0300
+
+    DZ1 DL
+
+[33mcommit 85985f9b7c928c0b80f04384a000213988c6cb0f[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Fri Apr 11 15:39:43 2025 +0300
+
+    алгоритмы дз1
+
+[33mcommit a320191dfbe008ee6596e0cc3e5325501ff9c5b8[m
+Author: TaniaZharova2205 <taniazharova416@gmail.com>
+Date:   Mon Apr 7 23:52:41 2025 +0300
+
+    не доделала всё же
+
+[33mcommit ba38315a96945c8daeea65f9932cbe7c313798af[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Mon Apr 7 17:02:43 2025 +0300
+
+    recsys
+
+[33mcommit c202c90a6d2c0b7cf3b22a4d45918af99946dd1a[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Fri Apr 4 14:31:45 2025 +0300
+
+    recsys
+
+[33mcommit ac4c6bba45fc290af80e882bc68b70cdc4b8578e[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Fri Mar 28 14:20:15 2025 +0300
+
+    recsys
+
+[33mcommit 6f9e0b9c130136a1933d08827849c7932f07de62[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Fri Mar 28 08:08:26 2025 +0300
+
+    yea
+
+[33mcommit ea8331d7074f787ccdd08bda8f1fb7ef7641b62f[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Mon Mar 24 17:18:18 2025 +0300
+
+    ПИЗДА БЛЯТЬ ЗАЕБАЛАСЬ ЭТОЙ ХУЙНЕЙ ЗАНИМАТЬСЯ
+
+[33mcommit 33fa6a48d182a75522804f785eefe309e50285b8[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Fri Mar 21 15:24:43 2025 +0300
+
+    python
+
+[33mcommit cce012207208b273c6a2d8099cae324812d449e1[m
+Author: TaniaZharova2205 <140263503+TaniaZharova2205@users.noreply.github.com>
+Date:   Thu Mar 20 18:00:50 2025 +0300
+
+    Создано в Colab
+
+[33mcommit 274af02cdebfa27e68523275a8ad312674a6759a[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Thu Mar 20 17:59:22 2025 +0300
+
+    DZ7 ML
+
+[33mcommit cb74368fe8fc9a3aafbcfd10fc8d92fcf802aa6d[m
+Author: TaniaZharova2205 <140263503+TaniaZharova2205@users.noreply.github.com>
+Date:   Thu Mar 20 17:51:02 2025 +0300
+
+    Создано в Colab
+
+[33mcommit 35b9aaeaed4037cc7765b08dbb8e2f8204413662[m
+Merge: 6388187 42ea496
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Thu Feb 27 08:14:36 2025 +0300
+
+    Merge branch 'main' of https://github.com/TaniaZharova2205/HSE
+
+[33mcommit 6388187b6076d0bfe12e710862d6290ad6a05972[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Thu Feb 27 08:14:20 2025 +0300
+
+    Переименовала все папки по семестрам
+
+[33mcommit 42ea49654b0d4aae935c56a1a624a8347afea089[m
+Author: TaniaZharova2205 <140263503+TaniaZharova2205@users.noreply.github.com>
+Date:   Fri Feb 21 18:31:28 2025 +0300
+
+    Создано в Colab
+
+[33mcommit 6b1731f3290f315937af92d97b51c8be04f58d6a[m
+Author: TaniaZharova2205 <140263503+TaniaZharova2205@users.noreply.github.com>
+Date:   Fri Feb 21 15:28:38 2025 +0300
+
+    Создано в Colab
+
+[33mcommit c57a91ef06399aa6013959d77614ee203aecabc6[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Fri Feb 21 12:16:41 2025 +0300
+
+    delete
+
+[33mcommit 0c161448ca1b213762affad90d17ad32910183c1[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Fri Feb 21 12:15:28 2025 +0300
+
+    u[date
+
+[33mcommit bcdbca11c26cbdde858e88c90d592d41cb710d9c[m
+Author: TaniaZharova2205 <140263503+TaniaZharova2205@users.noreply.github.com>
+Date:   Fri Feb 21 12:12:14 2025 +0300
+
+    Создано в Colab
+
+[33mcommit 7a08362d9a6b4f2b6248b15b0ce3869a434858e0[m
+Author: TaniaZharova2205 <140263503+TaniaZharova2205@users.noreply.github.com>
+Date:   Fri Feb 21 12:01:11 2025 +0300
+
+    Создано в Colab
+
+[33mcommit 6d534ebdbbac238a9ba0338d218b960b4a5372d7[m
+Merge: f241ef6 774282a
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Fri Feb 21 11:59:55 2025 +0300
+
+    Merge branch 'main' of https://github.com/TaniaZharova2205/HSE
+
+[33mcommit f241ef67724c4c128f6c70b50b5425fae7a4e150[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Fri Feb 21 11:59:32 2025 +0300
+
+    statistics dz
+
+[33mcommit 774282a5b373316e919069cbfa4e543e1418fb8c[m
+Author: TaniaZharova2205 <140263503+TaniaZharova2205@users.noreply.github.com>
+Date:   Sat Feb 15 21:57:21 2025 +0300
+
+    Rename DZ3.ipynb to DZ_3.ipynb
+
+[33mcommit 5ac8889b29896464908de746f24f75c6f671c9c7[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Mon Feb 10 07:59:41 2025 +0300
+
+    Python
+
+[33mcommit 7259baf5a3147481f558463a3a7c5c02aae15ecf[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Mon Feb 10 07:58:10 2025 +0300
+
+    Python
+
+[33mcommit 861976bec911ae9ec069c15fe928a85746af905f[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Mon Feb 10 07:54:01 2025 +0300
+
+    DZ4
+
+[33mcommit 8a968c6f52f16d446747e8df229654dd60c8cbfb[m
+Author: TaniaZharova2205 <140263503+TaniaZharova2205@users.noreply.github.com>
+Date:   Tue Jan 28 04:23:49 2025 +0300
+
+    Создано в Colab
+
+[33mcommit 5c2c290039ad208f3178483b13068c3851816b3b[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Tue Jan 21 18:13:40 2025 +0300
+
+    ML
+
+[33mcommit 0f656910524b948a4f732f563d8cdcb98fbe953e[m
+Author: TaniaZharova2205 <140263503+TaniaZharova2205@users.noreply.github.com>
+Date:   Tue Jan 21 18:11:20 2025 +0300
+
+    Создано в Colab
+
+[33mcommit 1a9308c08a78fdbd501c6970335f891743cecf29[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Thu Jan 9 08:17:11 2025 +0300
+
+    ml b python lecture
+
+[33mcommit 79b5711b6f3475e37148c1d404bd18768c6ddc80[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Thu Jan 9 08:06:51 2025 +0300
+
+    add
+
+[33mcommit 061ea841e25bab9ce38f4bfd77172ba89275016d[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Fri Dec 27 15:02:10 2024 +0300
+
+    Лекции математика
+
+[33mcommit 468e8ef177e02611a4795fe5bbeb205b59ad6af6[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Fri Dec 13 12:14:49 2024 +0300
+
+    Development
+
+[33mcommit bab4088c424a30d885a974c096d03c33e80bb21c[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Fri Dec 13 12:13:51 2024 +0300
+
+    Rename Python_2_1
+
+[33mcommit f96d2ecf5dbe06a0fc672954ffc673abde67521e[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Fri Dec 13 07:53:43 2024 +0300
+
+    add math
+
+[33mcommit 9480186355ad0b790ea1a834010cc2cb577e2493[m
+Author: TaniaZharova2205 <140263503+TaniaZharova2205@users.noreply.github.com>
+Date:   Tue Dec 10 09:19:22 2024 +0300
+
+    Update DZ2.ipynb
+
+[33mcommit 16ce74bb6d443771f57f187ae779efffb15cb1d4[m
+Author: TaniaZharova2205 <140263503+TaniaZharova2205@users.noreply.github.com>
+Date:   Tue Dec 10 09:17:06 2024 +0300
+
+    Update DZ2.ipynb
+
+[33mcommit 107bc7dbf84327059501a0bce6f83a0967f420d9[m
+Author: TaniaZharova2205 <140263503+TaniaZharova2205@users.noreply.github.com>
+Date:   Tue Dec 10 09:15:49 2024 +0300
+
+    Rename ML_1_2/DZ2.ipynb to ML_1_2/Homework/DZ2.ipynb
+
+[33mcommit 509409670f34edc2035ce5c443eb462b2716a76c[m
+Author: TaniaZharova2205 <140263503+TaniaZharova2205@users.noreply.github.com>
+Date:   Tue Dec 10 09:15:24 2024 +0300
+
+    Delete ML_1_2/Homework/DZ2.ipynb
+
+[33mcommit ad9a7cf767d937a20baedb81baa3ff1c20074964[m
+Author: TaniaZharova2205 <140263503+TaniaZharova2205@users.noreply.github.com>
+Date:   Tue Dec 10 09:14:07 2024 +0300
+
+    Создано в Colab
+
+[33mcommit 507dff60fc6102e91c37427be41102fa0858fbfe[m
+Author: TaniaZharova2205 <140263503+TaniaZharova2205@users.noreply.github.com>
+Date:   Tue Dec 10 09:12:39 2024 +0300
+
+    Add files via upload
+
+[33mcommit 9652727b481b65ee819a849f013ce44abab981f4[m
+Author: TaniaZharova2205 <140263503+TaniaZharova2205@users.noreply.github.com>
+Date:   Tue Dec 10 09:12:20 2024 +0300
+
+    Delete ML_1_2/Homework/DZ2.ipynb
+
+[33mcommit 164dc4599c71d52f05906c164f40b232eab125a4[m
+Author: TaniaZharova2205 <140263503+TaniaZharova2205@users.noreply.github.com>
+Date:   Tue Dec 10 09:11:14 2024 +0300
+
+    Add files via upload
+
+[33mcommit 2d6d43a167c160dd810f421d53c96f23148c0f44[m
+Author: TaniaZharova2205 <140263503+TaniaZharova2205@users.noreply.github.com>
+Date:   Tue Dec 10 09:10:16 2024 +0300
+
+    Delete DZ2.ipynb
+
+[33mcommit 97fb1a09cc7ca293c9b93279968386017c069ca2[m
+Merge: 9795e69 24aed59
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Tue Dec 10 09:06:13 2024 +0300
+
+    Merge branch 'main' of https://github.com/TaniaZharova2205/HSE
+
+[33mcommit 24aed59e58fc94f24e5547e51551d5b3645e7198[m
+Author: TaniaZharova2205 <140263503+TaniaZharova2205@users.noreply.github.com>
+Date:   Tue Dec 10 09:06:09 2024 +0300
+
+    Создано в Colab
+
+[33mcommit d19020b1e18fb4af92432264a1593cd42fe66e31[m
+Author: TaniaZharova2205 <140263503+TaniaZharova2205@users.noreply.github.com>
+Date:   Tue Dec 10 09:05:30 2024 +0300
+
+    Delete ML_1_2 /Homework directory
+
+[33mcommit dad73008778dda25d94dbec7ffe62bf13ae3fa67[m
+Author: TaniaZharova2205 <140263503+TaniaZharova2205@users.noreply.github.com>
+Date:   Tue Dec 10 09:03:48 2024 +0300
+
+    Создано в Colab
+
+[33mcommit 9795e697bebc8737757c8769e171ebdc0e06b5d5[m
+Merge: 090db01 fbbfde9
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Tue Dec 10 09:01:10 2024 +0300
+
+    Merge branch 'main' of https://github.com/TaniaZharova2205/HSE
+
+[33mcommit 090db01c7d5242fc56879a911108565849786168[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Tue Dec 10 09:00:45 2024 +0300
+
+    ML
+
+[33mcommit fbbfde91dd1819d69f5ff5aac44b0d57b316d613[m
+Author: TaniaZharova2205 <140263503+TaniaZharova2205@users.noreply.github.com>
+Date:   Fri Dec 6 12:33:03 2024 +0300
+
+    Создано в Colab
+
+[33mcommit d549c2f24d82ecfa238d56ec55a6b583542ec7ef[m
+Author: TaniaZharova2205 <140263503+TaniaZharova2205@users.noreply.github.com>
+Date:   Sat Nov 30 15:19:56 2024 +0300
+
+    Создано в Colab
+
+[33mcommit 8822eb26cae489b81f1857c8e0de65f397ec936a[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Fri Nov 22 14:47:49 2024 +0300
+
+    Дз питон
+
+[33mcommit 0aece3409f206a282ca7fe5d8f6d908e93e38e22[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Fri Nov 22 14:44:30 2024 +0300
+
+    Сори
+
+[33mcommit c12f2a578d48b3fbc454929946b25cdd639c69aa[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Fri Nov 22 14:43:41 2024 +0300
+
+    Добавила семинары
+
+[33mcommit b36c321e3e8141922efde98fc9f3d7ebe1d31733[m
+Merge: fa90328 7ea8c93
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Fri Nov 22 08:16:38 2024 +0300
+
+    Merge branch 'main' of https://github.com/TaniaZharova2205/HSE
+
+[33mcommit fa903280fccb051dc4904287af4c27e9670b1c56[m
+Author: tanya_zharova <tazharova@cate.ru>
+Date:   Fri Nov 22 08:12:31 2024 +0300
+
+    Математика дз 7
+
+[33mcommit 7ea8c93772b9d436c91ee817eb8c8ef9a2dfdff0[m
+Author: TaniaZharova2205 <taniazharova416@gmail.com>
+Date:   Sat Nov 16 12:23:56 2024 +0300
+
+    Добавила инструменты разработки. FastApi, Ускорение python, аннотацию типов и pydantic
