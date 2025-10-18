@@ -5,3 +5,23 @@
 [2025-10-06T22:08:06.933+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
 [2025-10-06T22:13:07.101+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
 [2025-10-06T22:13:07.117+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-06T22:18:11.207+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-06T22:18:11.420+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-06T22:18:19.756+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-10-06T22:18:22.846+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-10-17T03:39:30.796+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2025-10-17T03:39:30.801+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-10-17T03:39:30.803+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-10-17T03:39:30.832+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-17T03:39:30.879+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-17T03:44:46.345+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-17T03:44:47.548+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-17T03:50:23.236+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-17T03:50:23.334+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-17T03:55:44.780+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-17T03:55:45.700+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-17T04:00:45.722+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-17T04:00:45.739+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-17T11:52:54.918+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-17T11:52:54.960+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-17T11:54:24.042+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
