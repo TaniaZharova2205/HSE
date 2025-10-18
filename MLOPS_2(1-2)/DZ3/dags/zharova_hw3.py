@@ -278,7 +278,3 @@ with DAG(
         },
     )
     init_pipeline >> collect_data >> split_and_preprocess >> train_and_log_mlflow >> serve_model
-
-'''
-Выбрала BashOperator так как он показался мне самым простым вариантом из всех. Все сразу в одном месте
-'''
